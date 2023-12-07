@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Plataforma:D</title>
+	<style type="text/css">
+		@font-face {
+			font-family: pixel_font;
+			src: url('/media/downloads/hero-speak.ttf');
+		}
+	</style>
+	<script src="//cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.js"></script>
+</head>
+<body>
+	<script src="./utils/Player-2.js"></script>
+	<script src="./utils/game-2.js"></script>
+	<script src="./utils/loads-2.js"></script>
+	<script src="./utils/world-2/world-2.1.js"></script>
+	<script>
+		//Hacer:
+		/*
+		Arreglar el codigo que se ve engorroso.
+		Si la situacion lo amerita hacer una escena para menu inicial.
+		Plantear mejor que hacer con el juego.
+		Hacer el mundo. ->Recuerda he descargado varias imagenes que pueden ayudar.
+		Hacer una clase arbol, otra piedra... pero en un solo archivo para no fastidiar tanto.
+		 */
+		var WIDTH_SCREEM=700,
+			HEIGHT_SCREEM=600;
+		
+		var config = {
+		    type: Phaser.AUTO,
+		    width: WIDTH_SCREEM,
+		    height: HEIGHT_SCREEM,
+		    physics: {
+		        default: 'arcade',
+		        arcade: {
+		            //gravity: { y: 300 },
+		            debug: true
+		        }
+		    },
+		    scene: [loads, Game_scene],
+		    backgroundColor:"#4d9262",
+		    pixelArt:true
+		};
+
+		var game = new Phaser.Game(config);
+	</script>
+</body>
+</html>

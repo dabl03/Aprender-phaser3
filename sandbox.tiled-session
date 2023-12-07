@@ -1,0 +1,54 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "utils/world-2/map-1.json",
+    "expandedProjectPaths": [
+        "media/downloads",
+        "utils",
+        "utils/world-2",
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "utils/world-2/map-1.json": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 58.66666666666663,
+                "y": 244.66666666666663
+            }
+        },
+        "utils/world-2/map-1.json#RPG Nature Tileset": {
+            "scaleInDock": 1
+        },
+        "utils/world-2/map-1.json#Tnature-1.1": {
+            "scaleInDock": 1
+        },
+        "utils/world-2/map-1.json#Trock2": {
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/RUBI/projects/sandbox/aprender-Phaser (Framework de juegos)/media",
+    "map.lastUsedFormat": "json",
+    "openFiles": [
+        "utils/world-2/map-1.json"
+    ],
+    "project": "sandbox.tiled-project",
+    "recentFiles": [
+        "utils/world-2/map-1.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    },
+    "tileset.transparentColor": "#00e200",
+    "tileset.useTransparentColor": true
+}

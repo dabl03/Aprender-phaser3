@@ -1,0 +1,10 @@
+water+.png creado por: CC-BY 4.0 ninjikin https://ninjikin.itch.io/water
+font-hero-speak creato por: CC-BY 4.0 SciGho https://ninjikin.itch.io/font-hero-speak
+
+RPG Nature Tileset Autumn, IceTileset, RPG Nature Tileset{
+  Author: Stealthix
+  Licencia: Creative Commons Zero v1.0 Universal: https://itch.io/game-assets/assets-cc0
+  Url: https://stealthix.itch.io/rpg-nature-tileset
+}
+
+Mapas fueron hechos usando el editor "Tiled Map": https://thorbjorn.itch.io/tiled

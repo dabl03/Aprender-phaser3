@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Plataforma:D</title>
+	<script src="//cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.js"></script>
+</head>
+<body>
+	<script type="text/javascript" src="./game_platform-1.js"></script>
+	<script>
+		var WIDTH_SCREEM=700,
+			HEIGHT_SCREEM=600;
+		
+		var config = {
+		    type: Phaser.AUTO,
+		    width: WIDTH_SCREEM,
+		    height: HEIGHT_SCREEM,
+		    physics: {
+		        default: 'arcade',
+		        arcade: {
+		            gravity: { y: 300 },
+		            debug: false
+		        }
+		    },
+		    scene: Game_scene
+		};
+
+		var game = new Phaser.Game(config);
+	</script>
+</body>
+</html>
